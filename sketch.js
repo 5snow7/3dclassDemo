@@ -9,7 +9,7 @@ function setup(){
 		bar.push(new boxes(20));
 	}}
 	
-	let ang=0;
+	let ang=20;
 
 	function draw(){
 	background(100,220,100);
