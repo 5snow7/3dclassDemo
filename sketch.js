@@ -13,6 +13,7 @@ function setup(){
 
 	function draw(){
 	background(100,220,100);
+
 	
 	for(let j=0;j<10;j++){push();rotateX(ang+36*j);
 	translate(-300,0,-200);bar[j].rX(lenChg);pop();
