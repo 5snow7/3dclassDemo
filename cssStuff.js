@@ -1,7 +1,7 @@
 let rad;let par;let anch1;
 let c;let count=0;let sl,parSl;
 
-let stringX="test";let stringInp,bot,par2;
+let stringX="hello Dude";let stringInp,bot,par2;
 
 function start(){
 c=color(250,0,250);
@@ -21,7 +21,7 @@ sl=createSlider(5,50,25,1);
 sl.changed(chglen);//sl.position(900,250);
 sl.parent('cont');
 
-stringInp=select('#myString');stringInp.position(900,500);stringInp.class('parbdd');
+stringInp=select('#myInp');stringInp.position(900,500);stringInp.class('parbdd');
 bot=select('#but');bot.position(1050,400);
 //par2=createP("testing button");
 par2=select("#demo");
@@ -51,8 +51,9 @@ function myFunction(){
 }
 
 function stringFunction() {
-  stringX = document.getElementById("myString").value;
+  stringX = document.getElementById("myInp").value;
  document.getElementById("demo").innerHTML = stringX;
+
 }
 
 
